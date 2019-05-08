@@ -41,8 +41,16 @@ jstest-gtk
 ```
 ## Running
 
+From within a workspace after sourcing setup.bash
 ```
 roslaunch launch/joy.launch
+
+```
+or standalone you can simply use
+
+```
+rosparam load joystick_param.yaml
+rosrun joy_teleop joy_teleop.py
 ```
 
 Then be sure to hold down the enable switch (Default 4 which is LB on XB1)
@@ -54,3 +62,7 @@ The joystick_param.yaml contains controller settings such as scaling and which j
 * enable_button:  the index of the button to enable broadcasting of cmd_vel messages
 * axis_linear: which joystick axis controls linear movement
 * axis_angular: which joystick axis controls angular movement
+
+## Package Info
+
+Package name wave_joy_teleop
