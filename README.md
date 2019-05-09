@@ -39,6 +39,13 @@ to use simply run
 ```
 jstest-gtk
 ```
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/2769347/57462375-1566fd80-72bc-11e9-83b4-c59702ffcee7.png" width="350" title="hover text">
+  <img src="https://user-images.githubusercontent.com/2769347/57462391-1d26a200-72bc-11e9-901d-12e03dd87da9.png" width="350" alt="accessibility text">
+</p>
+
+
 ## Running
 
 From within a workspace after sourcing setup.bash
