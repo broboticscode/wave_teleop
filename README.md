@@ -53,7 +53,14 @@ From within a workspace after sourcing setup.bash
 roslaunch launch/joy.launch
 
 ```
-or standalone you can simply use
+if you need to configure the publish topic change the launch file as shown 
+```  
+<node pkg="teleop_twist_joy" name="teleop_twist_joy" type="teleop_node">
+  <rosparam command="load" file="$(find wave_joy_teleop)/joystick_param.yaml"/>
+  <remap from="cmd_vel" to="operation_treadstone/cmd_vel" />
+</node>
+```
+For standalone running you can simply use
 
 ```
 rosparam load joystick_param.yaml
