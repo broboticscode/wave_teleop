@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package>
-  <name>wave_joy_teleop</name>
+  <name>wave_teleop</name>
   <version>0.0.0</version>
   <description>The joy_teleop package</description>
 

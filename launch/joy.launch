@@ -14,7 +14,7 @@
 <!-- <rosparam command="load" file="$(arg teleop_config)" /> -->
 
 <node pkg="teleop_twist_joy" name="teleop_twist_joy" type="teleop_node">
-  <rosparam command="load" file="$(find wave_joy_teleop)/joystick_param.yaml"/>
+  <rosparam command="load" file="$(find wave_teleop)/joystick_param.yaml"/>
 </node>
 
 <!--<node pkg="joy_teleop" type="joy_teleop.py" name="joy_teleop">-->
