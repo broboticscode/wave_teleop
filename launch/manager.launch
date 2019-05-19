@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+
+
+
+<node pkg="wave_teleop" name="manager_node" type="joy_manager">
+
+</node>
+
+
+
+
+</launch>
