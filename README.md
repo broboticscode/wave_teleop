@@ -46,12 +46,11 @@ jstest-gtk
 </p>
 
 
-## Running
+## Running Joystick Teleoperator
 
 From within a workspace after sourcing setup.bash
 ```
 roslaunch launch/joy.launch
-
 ```
 if you need to configure the publish topic change the launch file as shown 
 ```  
@@ -68,6 +67,13 @@ rosrun joy_teleop joy_teleop.py
 ```
 
 Then be sure to hold down the enable switch (Default 4 which is LB on XB1)
+
+## Running Joystick Telemanager
+
+The telemanager allows us to control features of the wave robot with controller buttons
+```
+python joy_manager.py
+```
 
 ## Configuration
 
